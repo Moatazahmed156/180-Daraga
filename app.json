@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Myapp1",
+    "slug": "Myapp1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-2e33b7a0.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/logo-2e33b7a0.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-2e33b7a0.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo-2e33b7a0.png"
+    },
+    "plugins": ["expo-barcode-scanner"]
+  }
+}
